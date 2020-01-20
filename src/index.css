@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/***
+  HEADER STUFF
+*/
+
+
+.chatLogo {
+  height: 65px;
+}
+.leftHeader {
+  text-align: left;
+  float: left;
+  font-weight: normal;
+}
+
+.rightHeader {
+  text-align: right;
+  float: right;
+  width: 240px;
+}
+
+.vitoProfileIcon {
+  height: 65px;
+  border-radius: 35px;
+  float: left;
+}
+
+/**
+  MENU STUFF
+**/
+
+
+.Minion-Selector {
+  float: left;
+  width: 20%;  
+}
+
+.Minion-Selector ul {
+  padding-left: 0px;   
+  margin-top: 0px;
+}
+
+.Minion-Selector ul li{
+	list-style: none;
+	padding: 10px 10px 10px 10px;  
+  cursor: pointer;
+  text-align: left;
+  border-bottom: 1px solid #999;
+}
+
+.profilePhoto {
+  float: left;
+  padding-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.profileSonny {
+  background-image: url('/Rash.jpg');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+.profileMichael {
+  background-image: url('/Pimple.jpg');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+.profileFredo {
+  background-image: url('/Zitz.jpg');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+.active {
+  background-color: #0082bb;
+  color: white;
+  font-weight: bold;
+}
+
+/***
+  MAIN CHAT WINDOW STUFF
+**/
+.ChatWindow {
+  float: left;
+  width: 80%;
+  height: 80%;
+}
+
+.Chat-Container {
+  padding: 20px;
+  overflow: scroll;
+  height: 90%;
+}
+
+.Minion-Chat {
+  height: 100%;
+}
+
+/**
+  Chat info stuff
+**/
+.vitoChatIcon {
+  float: left;
+  height: 75px;
+  border-radius: 35px;
+  border: 2px solid #0082bb;
+}
+
+.vitoProfile {
+  float: left;
+  padding-right: 10px;  
+}
+
+.MessageWindow {
+  height: 100%;
+  width: 100%;
+}
+
+.Message-Box {
+  width: 100%;
+}
+
+.noMessages {
+  color: #999;
+}
+.messageInfo {
+  text-align: left;
+  padding: 20px;
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.messageDate {
+  font-weight: bold;
+}
+
+.messageContent {
+  width: 80%;
+  height: 20px;
+}
+
+#messageSend {
+  width: 19%;
+  height: 20px;
+}
